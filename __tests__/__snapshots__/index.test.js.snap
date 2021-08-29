@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly with posts and archive 1`] = `
+Array [
+  <div
+    className="jsx-4006167202 post-teaser"
+  >
+    <h2
+      className="jsx-4006167202"
+    >
+      <a
+        className="jsx-4006167202"
+        href="/posts/[id]"
+      >
+        かきくけこ
+      </a>
+    </h2>
+    <div
+      className="jsx-4006167202"
+    >
+      <span
+        className="jsx-4006167202"
+      >
+        2020/08/27
+      </span>
+    </div>
+  </div>,
+  <div
+    className="jsx-4006167202 post-teaser"
+  >
+    <h2
+      className="jsx-4006167202"
+    >
+      <a
+        className="jsx-4006167202"
+        href="/posts/[id]"
+      >
+        あいうえお
+      </a>
+    </h2>
+    <div
+      className="jsx-4006167202"
+    >
+      <span
+        className="jsx-4006167202"
+      >
+        2018/05/27
+      </span>
+    </div>
+  </div>,
+  <div
+    className="jsx-4006167202 home-archive"
+  >
+    <a
+      className="jsx-4006167202"
+      href="/archive/[page]"
+    >
+      アーカイブ
+    </a>
+  </div>,
+]
+`;
+
+exports[`Home renders correctly without posts nor archive 1`] = `""`;
