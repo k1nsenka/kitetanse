@@ -29,15 +29,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/archive/[page]": [
+    "/blog/[slug]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/archive/[page].js"
+      "static/chunks/pages/blog/[slug].js"
     ],
-    "/posts/[slug]": [
+    "/next/dist/pages/_error": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/posts/[slug].js"
+      "static/chunks/pages/next/dist/pages/_error.js"
     ]
   },
   "ampFirstPages": []
