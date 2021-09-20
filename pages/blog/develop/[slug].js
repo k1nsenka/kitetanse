@@ -11,8 +11,8 @@ export default function PostPage({
 }) {
   return (
     <>
-      <Link href='/'>
-        <a className='btn btn-back'>Go Back</a>
+      <Link href='/develop'>
+        <a className='btn btn-back'>Go Back to Develop</a>
       </Link>
       <div className='card card-page'>
         <h1 className='post-title'>{title}</h1>
@@ -27,7 +27,7 @@ export default function PostPage({
 }
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join('posts'))
+  const files = fs.readdirSync(path.join('posts/develop'))
 
   const paths = files.map((filename) => ({
     params: {
@@ -43,7 +43,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }) {
   const markdownWithMeta = fs.readFileSync(
-    path.join('posts', slug + '.md'),
+    path.join('posts/develop', slug + '.md'),
     'utf-8'
   )
 

@@ -1,10 +1,10 @@
-import Layout from '../components/Layout'
+import Link from 'next/link'
 
-export default function Profile() {
+export default function About() {
   return (
-    <Layout>
-      <h2>About</h2>
+    <div>
+      <h2>About us</h2>
       <p>固定ページごとのコンテンツを書く</p>
-    </Layout>
+    </div>
   );
 }
