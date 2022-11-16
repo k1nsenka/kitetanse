@@ -1,4 +1,4 @@
-# kitetanse  
+# https://k1nsenka.github.io/kitetanse  
 ポートフォリオ兼趣味ブログ（の予定）
 
 ## ディレクトリ構成
