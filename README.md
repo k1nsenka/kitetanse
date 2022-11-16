@@ -46,3 +46,7 @@ postsをタグ管理するためのfuncの開発開始（結局）
 ディレクトリ構造を丸々変える  
 参考:https://hyper-text.org/archives/2021/01/renewed_my_blog_with_nextjs.shtml  
 やめて、普通にディレクトリごとに記事管理をすることにする。
+
+### 20221116@master
+github actionsによるデプロイを設定中，色々パッケージの依存関係を更新していたら  
+legacyBehaviorエラーに遭遇，とりあえず動かない。
